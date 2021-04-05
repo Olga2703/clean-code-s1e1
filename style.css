@@ -13,14 +13,14 @@ body {
 .avatar img {
   width: 100%;
 }
-.avatar .more-inf {
+.avatar .link-inf {
   font-family: fantasy, cursive;
 }
 @media (max-width:768px) {
   .avatar { text-align: center;
   }   
 }
-.centered-main-page-element {
+.centered-main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -30,7 +30,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.task-wrapper {
   display: flex;
 }
 ul {
